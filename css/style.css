@@ -117,6 +117,10 @@ h1, h2 {
     padding: 10px 30px;
 }
 
+.box i {
+    margin-right: 20px;
+}
+
 
 @media (max-width: 768px) {
     .header .container {
@@ -126,6 +130,7 @@ h1, h2 {
     }
 
     .boxes .container {
+        /* max-width: 500px; */
         display: block;
         /* flex-direction: column; */
         text-align: center;
